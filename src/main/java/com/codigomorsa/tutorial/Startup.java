@@ -12,9 +12,7 @@ public class Startup {
 	public static void main(String[] args) {
 		SpringApplication.run(Startup.class, args);
 		logger.debug("mi mensaje debug");
-		logger.info("mi mensaje info");
-		logger.warn("mi mensaje warn");
-		logger.error("mi mensaje error");
+
 	}
 
 }
